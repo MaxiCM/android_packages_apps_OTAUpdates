@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 XperiAMM (MaxiCM Team).
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -372,7 +372,7 @@ public class AvailableActivity extends Activity implements Constants, android.vi
 
 	private void setupRomHut() {
 		String domainText = RomUpdate.getUrlDomain(mContext);
-		boolean isRomHut = domainText.contains("romhut.com");
+		boolean isRomHut = domainText.contains("maxicm.com");
 		if (domainText != null) {
 			TextView domainTextView = (TextView) findViewById(R.id.tv_available_romhut);
 			String sponsoredBy = isRomHut ?  "Sponsored by " : "";

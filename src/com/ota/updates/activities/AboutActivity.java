@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 XperiAMM (MaxiCM Team).
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -78,11 +78,10 @@ public class AboutActivity extends Activity {
 		String closeHTML = "</font>";
 		String newLine = "<br />";
 		String creditsText =
-				openHTML + "Matt Booth" + closeHTML + " - Anything not mentioned below" + newLine +
-				openHTML + "Roman Nurik" + closeHTML + " - Android Asset Studio Framework" + newLine +
-				openHTML + "Jeff Gilfelt"+ closeHTML + " - Android Action Bar Style Generator" + newLine + 
-				openHTML + "Ficeto (AllianceROM)" + closeHTML + " - Shell tools" + newLine +
-				openHTML + "StackOverflow" + closeHTML + " - Many, many people";
+				openHTML + "XperiAMM" + closeHTML + " - Leader MaxiCM" + newLine +
+				openHTML + "Epirex" + closeHTML + " - Developer MaxiCM" + newLine +
+				openHTML + "Nothing Dev"+ closeHTML + " - Developer MaxiCM" + newLine + 
+				openHTML + "Krizthian" + closeHTML + " - Developer MaxiCM";
 		creditsSummary.setText(Html.fromHtml(creditsText));
 		
 		TextView versionTitle = (TextView) findViewById(R.id.about_tv_version_title);
@@ -106,9 +105,9 @@ public class AboutActivity extends Activity {
 				String url = "";
 				int selectedPosition = ((AlertDialog)dialog).getListView().getCheckedItemPosition();
 				if (selectedPosition == 0) {
-					url = "http://goo.gl/ZKSY4";
+					url = "https://goo.gl/xANoyL";
 				} else {
-					url = "http://goo.gl/o4c6ES";
+					url = "https://goo.gl/xANoyL";
 				}
 				Intent intent = new Intent(Intent.ACTION_VIEW);
 				intent.setData(Uri.parse(url));

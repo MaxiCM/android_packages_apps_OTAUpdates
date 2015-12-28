@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 	Copyright (C) 2015 XperiAMM (MaxiCM Team).
  
  	Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  	(the "License") you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
     <string name="about_credits_title">Danke an</string>
     <string name="about_credits_summary">Danksagungen</string>
     <string name="about_donate_title">Spenden</string>
-    <string name="about_donate_summary">Wenn Sie diese App nützlich fanden, denken Sie bitte über eine kleine Spende an den Entwickler nach (Kryten2k35).</string>
+    <string name="about_donate_summary">Wenn Sie diese App nützlich fanden, denken Sie bitte über eine kleine Spende an den Entwickler nach (XperiAMM).</string>
     <string name="about_donate_button_summary">Geben Sie mir ein Bier aus</string>
 
 </resources>

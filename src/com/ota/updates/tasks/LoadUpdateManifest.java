@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Matt Booth (Kryten2k35).
+ * Copyright (C) 2015 XperiAMM (MaxiCM Team).
  *
  * Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International 
  * (the "License") you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@ public  class LoadUpdateManifest extends AsyncTask<Void, Void, Void> implements 
 
             URL url;
             if (DEBUGGING) {
-            	url = new URL("https://romhut.com/roms/aosp-jf/ota.xml");
+            	url = new URL("https://maxicm.com/");
             } else {
             	url = new URL(Utils.getProp("ro.ota.manifest").trim());
             }
